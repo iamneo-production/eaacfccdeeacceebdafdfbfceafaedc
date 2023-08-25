@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+
+import com.examly.springapp.bean.Task;
 import com.examly.springapp.service.TasksService;
-import com.examly.springapp.model.Task;
 
 @RestController
 public class TaskController {
